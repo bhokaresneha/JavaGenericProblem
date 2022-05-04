@@ -6,6 +6,7 @@ package com.bridgelabz;
  * Purpose - To find maximum value using generics
  * @author -Sneha Bhokare
  */
+//Comparable defines a compareTo method
 public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
     /**
      * Generic method to compare Float type of data and find maximum
