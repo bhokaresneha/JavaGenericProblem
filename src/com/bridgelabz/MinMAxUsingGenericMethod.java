@@ -9,6 +9,7 @@ package com.bridgelabz;
 public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
     /**
      * Generic method to compare String type of data and find maximum
+
      * @param x : First value to compare
      * @param y : Second value to compare
      * @param z : Third value to compare
@@ -30,5 +31,6 @@ public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
 
         String str1 = "Apple",str2 =  "Peach",str3 =  "Banana", str4 = "Pineapple";
         System.out.println("The maximum value between the three String is :" + max.findMax(str1,str2,str3,str4));
+
     }
 }
