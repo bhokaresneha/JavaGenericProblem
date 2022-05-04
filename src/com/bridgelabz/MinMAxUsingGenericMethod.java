@@ -30,8 +30,6 @@ public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
 
 
 
-        Float pFloat = 12.0f,qFloat = 43.7f,rFloat = 54.0f,sFloat = 39.90f;
-        System.out.println("The maximum value between the three Float is :" + max.findMax(pFloat,qFloat,rFloat, sFloat));
 
 
     }
