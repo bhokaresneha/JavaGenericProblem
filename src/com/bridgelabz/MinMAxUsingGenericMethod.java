@@ -8,7 +8,7 @@ package com.bridgelabz;
  */
 public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
     /**
-     * Generic method to compare any type of data and find maximum
+     * Generic method to compare Float type of data and find maximum
      * @param x : First value to compare
      * @param y : Second value to compare
      * @param z : Third value to compare
@@ -28,13 +28,9 @@ public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
     public static void main(String[] args) {
         MinMAxUsingGenericMethod max = new MinMAxUsingGenericMethod();
 
-        Integer aInt = 10,bInt = 32,cInt = 211, dInt = 45;
-        System.out.println("The maximum value between the three Integers is :" + max.findMax(aInt,bInt,cInt,dInt));
-
         Float pFloat = 12.0f,qFloat = 43.7f,rFloat = 54.0f,sFloat = 39.90f;
         System.out.println("The maximum value between the three Float is :" + max.findMax(pFloat,qFloat,rFloat, sFloat));
 
-        String str1 = "Apple",str2 =  "Peach",str3 =  "Banana", str4 = "Pineapple";
-        System.out.println("The maximum value between the three String is :" + max.findMax(str1,str2,str3,str4));
+        
     }
 }
