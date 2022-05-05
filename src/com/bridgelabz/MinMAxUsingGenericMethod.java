@@ -3,10 +3,10 @@ package com.bridgelabz;
 
 
 /**
- * Purpose - To find maximum value using generics
+ * Purpose - To find maximum value using generic method
  * @author -Sneha Bhokare
  */
-public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
+public class MinMAxUsingGenericMethod {
     /**
      * Generic method to compare Float type of data and find maximum
      * @param x : First value to compare
