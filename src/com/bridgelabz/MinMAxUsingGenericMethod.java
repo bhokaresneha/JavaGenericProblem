@@ -6,7 +6,7 @@ package com.bridgelabz;
  * Purpose - To find maximum value using generics
  * @author -Sneha Bhokare
  */
-public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
+public class MinMAxUsingGenericMethod {
     /**
      * Generic method to compare String type of data and find maximum
 
