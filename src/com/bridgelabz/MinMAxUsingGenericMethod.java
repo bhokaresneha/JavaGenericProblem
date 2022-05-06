@@ -22,19 +22,24 @@ public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
             max = z;
         if (n.compareTo(max) > 0)
             max = n;
-
+        printMax(x,y,z,n,max);
         return max;
     }
+
+    public static <T> void printMax(T x,T y,T z,T n,T max){
+        System.out.printf("Max of %s, %s, %s, %s is:: ",x,y,z,n,max);
+    }
+
     public static void main(String[] args) {
         MinMAxUsingGenericMethod max = new MinMAxUsingGenericMethod();
 
-        Integer aInt = 10,bInt = 32,cInt = 211, dInt = 45;
+        Integer aInt = 18,bInt = 37,cInt = 11, dInt = 445;
         System.out.println("The maximum value between the three Integers is :" + max.findMax(aInt,bInt,cInt,dInt));
 
-        Float pFloat = 12.0f,qFloat = 43.7f,rFloat = 54.0f,sFloat = 39.90f;
+        Float pFloat = 10.0f,qFloat = 43.70f,rFloat = 50.40f,sFloat = 39.70f;
         System.out.println("The maximum value between the three Float is :" + max.findMax(pFloat,qFloat,rFloat, sFloat));
 
-        String str1 = "Apple",str2 =  "Peach",str3 =  "Banana", str4 = "Pineapple";
+        String str1 = "Apple",str2 =  "Peach",str3 =  "Banana", str4 = "pomegranate";
         System.out.println("The maximum value between the three String is :" + max.findMax(str1,str2,str3,str4));
     }
 }
