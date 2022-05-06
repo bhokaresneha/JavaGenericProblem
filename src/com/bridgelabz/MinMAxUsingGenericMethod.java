@@ -29,6 +29,14 @@ public class MinMAxUsingGenericMethod <T extends Comparable <T>>{
     public static void main(String[] args) {
         MinMAxUsingGenericMethod max = new MinMAxUsingGenericMethod();
 
+        Integer aInt = 18,bInt = 37,cInt = 11, dInt = 445;
+        System.out.println("The maximum value between the three Integers is :" + max.findMax(aInt,bInt,cInt,dInt));
+
+        Float pFloat = 10.0f,qFloat = 43.70f,rFloat = 50.40f,sFloat = 39.70f;
+        System.out.println("The maximum value between the three Float is :" + max.findMax(pFloat,qFloat,rFloat, sFloat));
+
+        String str1 = "Apple",str2 =  "Peach",str3 =  "Banana", str4 = "pomegranate";
+        System.out.println("The maximum value between the three String is :" + max.findMax(str1,str2,str3,str4));
         Float pFloat = 12.0f,qFloat = 43.7f,rFloat = 54.0f,sFloat = 39.90f;
         System.out.println("The maximum value between the three Float is :" + max.findMax(pFloat,qFloat,rFloat, sFloat));
 
